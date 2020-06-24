@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+  
+int main() 
+{  
+    double number , a , b , c , d , n ;
+    while(cin >> number)
+    {
+        while(cin >> a >> b >> c >> d )
+        {
+            if((b - a) == (d - c))
+   {
+                n = d + (d - c) ;
+            }
+            else
+            {
+                n = d * (b/a);
+            }
+            cout << a << " " << b << " " << c << " " << d << " " << n << endl ;
+        }
+    }
+    return 0;  
+}
