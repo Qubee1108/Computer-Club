@@ -1,0 +1,6 @@
+R=['普通','吉','大吉']
+while True: 
+  try:M,D=input().split()
+  except:break
+  S=(int(M)*2+int(D))%3
+  print(R[S])
